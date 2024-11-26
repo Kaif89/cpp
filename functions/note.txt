@@ -1,0 +1,54 @@
+A function is a block of code designed to perform a specific task.
+
+Functions in C++ follow this basic syntax:
+
+returnType functionName(parameters) {
+    // function body
+}
+
+Return Type: Specifies the data type of the value returned by the function. Use void if no value is returned.
+
+Function Name: Describes what the function does.
+
+Parameters: Input values for the function (optional).
+
+
+
+
+Formal parameters: Defined in the function signature.
+Actual parameters: Values passed during the function call.
+Default parameters: Parameters with default values if none are passed.
+
+To execute a function, you call it by its name followed by parentheses.
+If the function takes arguments, pass them inside the parentheses.
+
+
+A function definition includes the full function with the body.
+You must define the function after declaring it if it’s not inline.
+
+Function declaration tells the compiler about the function’s name, return type, and parameters. It’s also called a function prototype.
+The function body is defined elsewhere.
+
+
+Pass by value means the function receives a copy of the argument. Changes made inside the function do not affect the original variable.
+
+
+Pass by reference passes the actual variable, so changes in this function affect the original variable.
+
+
+
+Variables declared inside a function have local scope (accessible only within the function).
+Variables declared outside all functions have global scope (accessible from any function).
+
+Function overloading allows multiple functions with the same name but different parameter types or numbers.
+
+
+A lambda function is an anonymous function that can be defined inline using the [] syntax.
+They’re useful for short, simple functions.
+
+
+Function Declaration & Definition: Tell the compiler about a function and define what it does.
+Calling Functions: Execute the function by passing arguments if required.
+Pass by Value/Reference: Controls whether changes affect the original value or a copy.
+Function Overloading: Allows multiple functions with the same name but different parameter lists.
+Lambda Functions: Short, inline functions used for simple tasks.
